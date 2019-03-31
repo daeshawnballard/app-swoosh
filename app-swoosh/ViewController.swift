@@ -18,7 +18,7 @@ class ViewController: UIViewController {
        
         //utlizing the coordinate system, to put the frame in the center
         swoosh.frame = CGRect(x: view.frame.size.width / 2 - swoosh.frame.size.width / 2, y: 50, width: swoosh.frame.size.width, height: swoosh.frame.size.height)
-        //making the background take up the full screen
+        //making the background take up the full screen.
         bgImg.frame = view.frame
     }
 
